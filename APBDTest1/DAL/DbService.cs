@@ -7,7 +7,7 @@ namespace APBDTest1.DAL
 {
     public class DbService : IDbService
     {
-        private const string CONNECTION_STRING = "Server=db-mssql.pjwstk.edu.pl;Database=s19135;User Id=apbds19135;Password=admin";
+        private const string CONNECTION_STRING = "Data Source=db-mssql;Initial Catalog=s19135;Integrated Security=True";
         
         public TeamMemberData GetTeamMemberData(string index)
         {
